@@ -32,9 +32,9 @@ export default function App() {
               }
             </ul>
             <div className="flex gap-2 md:flex-row flex-col">
-              <p className="text-[#176B87] text-sm">Total Todo List: {todos.length}</p>
-              <p className="text-[#176B87] text-sm">Total Completed: {todos.filter((todo: todo)=>todo.isCompleted === true).length}</p>
-              <p className="text-[#176B87] text-sm">Total Not Completed: {todos.filter((todo: todo)=>todo.isCompleted === false).length}</p>
+              <p className="text-[#176B87] text-xs">Total Todo List: {todos.length}</p>
+              <p className="text-[#176B87] text-xs">Total Completed: {todos.filter((todo: todo)=>todo.isCompleted === true).length}</p>
+              <p className="text-[#176B87] text-xs">Total Not Completed: {todos.filter((todo: todo)=>todo.isCompleted === false).length}</p>
             </div>
           </div>
         </div>
